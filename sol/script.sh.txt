@@ -1,0 +1,5 @@
+#!/bin/bash
+module load compilers/gnu-5.4.0
+make
+./tema1_par tests/julia2.in julia.out testt/mandelbrot2.in mandelbrot.out 4
+make clean
